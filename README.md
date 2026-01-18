@@ -25,9 +25,3 @@ Web → Scrape + Parse
   "url": "string",
   "fetched_at": "ISO-8601 timestamp"
 }
-
-## Run
-python main.py
-
-## Test
-pytest -v
