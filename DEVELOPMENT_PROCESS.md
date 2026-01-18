@@ -31,7 +31,7 @@ API field publishedAt mapped to internal fetched_at.
 Output passed through a normalization layer.
 Returned data as a list of normalized articles.
 
---------------------------------------## Task 2: ---------------------------------------------
+## Task 2:
 
 **AI Prompt Used:**
 Write a Python function to read a local CSV file containing articles.
@@ -50,7 +50,7 @@ CSV rows converted into article records.
 Missing fields handled using default values.
 Each record passed through the same normalization function used by NewsAPI.
 
---------------------------------------## Task 3: ---------------------------------------------
+## Task 3: 
 
 **AI Prompt Used:**
 Create a Python web scraper that fetches article title and content from a website.
@@ -69,7 +69,7 @@ Title and content extracted.
 Source tagged as "web".
 Output normalized using the shared normalization layer.
 
---------------------------------------## Task 4: ---------------------------------------------
+## Task 4: 
 
 **AI Prompt Used:**
 Design a common normalization function that converts data from different sources into a single consistent JSON schema.
@@ -89,7 +89,7 @@ The response was all correct.
   "fetched_at": "ISO-8601 timestamp"
 }
 
---------------------------------------## Task 5: ---------------------------------------------
+## Task 5: 
 
 **AI Prompt Used:**
 Write a Python entry point that combines results from multiple data sources and saves the output as JSON.
